@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem 10%;
+  height: 5rem;
+  background-color: #1c1d25;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #ebebeb;
+  font-family: "Fira", sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ebebeb;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #ebebeb;
+}
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation a {
+  margin: 0 2rem;
+  text-decoration: none;
+  color: #ebebeb;
+  font-size: 1.2rem;
+}
